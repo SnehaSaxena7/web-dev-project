@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sneha Saxena | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">SS.</div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#skills" class="nav-link">Skills</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ===== HOME SECTION ===== -->
+  <section class="section" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <p class="hero-tag">Hello, I'm</p>
+      <h1 class="hero-name">Sneha <br/><span class="accent">Saxena</span></h1>
+      <p class="hero-role" id="typingText"></p>
+      <p class="hero-desc">MCA Student · Developer · Creator</p>
+      <div class="hero-ctas">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="avatar-ring">
+        <div class="avatar-inner">
+          <span>SS</span>
+        </div>
+      </div>
+      <div class="floating-card fc1"><span>💻</span> Web Dev</div>
+      <div class="floating-card fc2"><span>🎨</span> UI Design</div>
+      <div class="floating-card fc3"><span>🚀</span> MCA Student</div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="section" id="about">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-tag">02 / About</span>
+        <h2>Who Am I?</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a first-year <strong>MCA student at COER University (2025–2027)</strong>, passionate about building meaningful digital experiences. I completed my <strong>BCA from Quantum University (2022–2025)</strong> with a strong foundation in web technologies and programming.</p>
+          <p>When I'm not coding, I explore design trends, work on real-world projects, and sharpen my problem-solving skills through hands-on development.</p>
+          <div class="about-stats">
+            <div class="stat"><span class="stat-num">5+</span><span>Projects</span></div>
+            <div class="stat"><span class="stat-num">3+</span><span>Languages</span></div>
+            <div class="stat"><span class="stat-num">3</span><span>Years Coding</span></div>
+          </div>
+          <a href="#" class="btn btn-primary" download>Download CV</a>
+        </div>
+        <div class="about-img-wrap">
+          <div class="about-img-placeholder">
+            <div class="img-decor"></div>
+            <div class="img-box">
+              <span class="big-initial">S</span>
+              <p>Sneha Saxena</p>
+              <small>MCA I Year • COER University • 2025–2027</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS SECTION ===== -->
+  <section class="section section-alt" id="skills">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-tag">03 / Skills</span>
+        <h2>My Tech Stack</h2>
+      </div>
+      <div class="skills-grid">
+        <!-- Technical Skills -->
+        <div class="skill-category">
+          <h3>Technical</h3>
+          <div class="skill-bars">
+            <div class="skill-item" data-level="90">
+              <div class="skill-info"><span>HTML5</span><span class="skill-pct">90%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--w:90%"></div></div>
+            </div>
+            <div class="skill-item" data-level="80">
+              <div class="skill-info"><span>CSS3</span><span class="skill-pct">80%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--w:80%"></div></div>
+            </div>
+            <div class="skill-item" data-level="75">
+              <div class="skill-info"><span>JavaScript</span><span class="skill-pct">75%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--w:75%"></div></div>
+            </div>
+            <div class="skill-item" data-level="70">
+              <div class="skill-info"><span>PHP</span><span class="skill-pct">70%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--w:70%"></div></div>
+            </div>
+            <div class="skill-item" data-level="65">
+              <div class="skill-info"><span>MySQL</span><span class="skill-pct">65%</span></div>
+              <div class="skill-bar"><div class="skill-fill" style="--w:65%"></div></div>
+            </div>
+          </div>
+        </div>
+        <!-- Tools -->
+        <div class="skill-category">
+          <h3>Tools & Frameworks</h3>
+          <div class="tools-grid">
+            <div class="tool-badge">Git & GitHub</div>
+            <div class="tool-badge">VS Code</div>
+            <div class="tool-badge">Bootstrap</div>
+            <div class="tool-badge">MySQL</div>
+            <div class="tool-badge">PHP</div>
+            <div class="tool-badge">React.js</div>
+            <div class="tool-badge">Figma</div>
+            <div class="tool-badge">Linux</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section class="section" id="projects">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-tag">04 / Projects</span>
+        <h2>Featured Work</h2>
+      </div>
+      <div class="projects-grid" id="projectsGrid">
+        <!-- Projects injected by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="section section-alt" id="contact">
+    <div class="section-inner">
+      <div class="section-header">
+        <span class="section-tag">05 / Contact</span>
+        <h2>Let's Connect</h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p>I'm open to internship opportunities, collaborations, or just a friendly chat about technology!</p>
+          <div class="contact-details">
+            <div class="contact-item"><span class="ci-icon">📧</span><a href="mailto:snehasaxena970@gmail.com">snehasaxena970@gmail.com</a></div>
+            <div class="contact-item"><span class="ci-icon">🔗</span><a href="https://linkedin.com/in/snehasaxena07" target="_blank">linkedin.com/in/snehasaxena07</a></div>
+            <div class="contact-item"><span class="ci-icon">🐙</span><a href="https://github.com/SnehaSaxena7" target="_blank">github.com/SnehaSaxena7</a></div>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/SnehaSaxena7" class="social-btn" title="GitHub" target="_blank">GH</a>
+            <a href="https://linkedin.com/in/snehasaxena07" class="social-btn" title="LinkedIn" target="_blank">LI</a>
+            <a href="mailto:snehasaxena970@gmail.com" class="social-btn" title="Email">✉</a>
+          </div>
+        </div>
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="cf-name">Name *</label>
+            <input type="text" id="cf-name" placeholder="Your full name" />
+            <span class="error-msg" id="err-name"></span>
+          </div>
+          <div class="form-group">
+            <label for="cf-email">Email *</label>
+            <input type="email" id="cf-email" placeholder="your@email.com" />
+            <span class="error-msg" id="err-email"></span>
+          </div>
+          <div class="form-group">
+            <label for="cf-subject">Subject *</label>
+            <input type="text" id="cf-subject" placeholder="What's it about?" />
+            <span class="error-msg" id="err-subject"></span>
+          </div>
+          <div class="form-group">
+            <label for="cf-message">Message *</label>
+            <textarea id="cf-message" rows="4" placeholder="Write your message here..."></textarea>
+            <span class="error-msg" id="err-message"></span>
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message ✉️</button>
+          <div class="form-success" id="formSuccess">✅ Message sent! I'll get back to you soon.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>© 2025 Sneha Saxena · Built with ❤️ using HTML, CSS & JavaScript</p>
+    <p><small>MCA I Year | COER University | Session 2025–2027</small></p>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button class="back-top" id="backTop" title="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
